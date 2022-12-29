@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text(data),
+              Text(data.isEmpty ? "" : data),
               const SizedBox(
                 height: 24,
               ),
